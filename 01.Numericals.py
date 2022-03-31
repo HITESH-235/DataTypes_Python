@@ -1,6 +1,6 @@
 print( "HELLO WORLD" , "\n" )
 
-# 1 // Numeric (Int, float, complex)
+# Numeric (Int, float, complex)
 
 print("INTEGERS :")
 a0 = 108
@@ -27,21 +27,12 @@ print( "( -2 - 5j ) x ( 0 - 4j ) = " , a3*a4 )           #MULTIPLICATION
 print( "( -2 - 5j ) / ( 0 - 4j ) = " , a3/a4 , "\n" )  #DIVISION
 # ---------------------------------------------------------------------------------
 # Other methods of complex numbers
+print( a3.real , "&"  , a3.imag) 
+print( a4.real , "&"  , a4.imag)
 print( "Conjugate of a3 & a4 :" , a3.conjugate() , "&" , a4.conjugate() )
 print( "1 // Absolute value of a3 & a4 :" , float( "%.2f" % abs(a3) ) , "&" , float( "%.2f" % abs(a4) ) )
 # OR :
 print( "2 // Absolute value of a3 and a4 :" , format( abs(a3) , ".2f" ) , format( abs(a4) , ".2f") , "\n" )
 # ---------------------------------------------------------------------------------
-# Conversion in different numeric types:
-print( "%d(an int), in float & complex is" % (a0) , float(a0) , "&"  , complex(a0) , "\n" )
-print( a0 )       # Still the same
-print( "%.2f(a float), in int & complex is" % (a1) , int(a1) , "&"  , complex(a1) , "\n" )
-print( a1 )
-#Complex numbers can neither be represented in form of integers, nor in float
-# ---------------------------------------------------------------------------------
 
-# 2 // None (Contains no value or object)
-a = None
-print( "a =" , a , "\n" , type(a) , "\n" , a is None , "\n" )
-# It is kind of exception in all types
 
