@@ -12,9 +12,9 @@ x2 = 0b101100001       # A binary number(0,1)
 x3 = 0x23d5       # A hexadecimal number(0 to 9, A to F)(A/a = 10 to F/f = 15)
 # "0x" is always added to a hexadecimal number(to avoid error)
 
-y1 = int( x1 )
-y2 = int( x2 )
-y3 = int( x3 ) # The int() converts any type of other bases to decimal
+y1 = int(x1)
+y2 = int(x2)
+y3 = int(x3) # The int() converts any type of other bases to decimal
 print( "Octal 225 =" , y1 )
 print( "Binary 101100001 =" , y2 )
 print( "Hexadecimal 23d5 =" , y3 , "\n" )

@@ -30,9 +30,9 @@ print( "( -2 - 5j ) / ( 0 - 4j ) = " , a3/a4 , "\n" )  #DIVISION
 print( a3.real , "&"  , a3.imag) 
 print( a4.real , "&"  , a4.imag)
 print( "Conjugate of a3 & a4 :" , a3.conjugate() , "&" , a4.conjugate() )
-print( "1 // Absolute value of a3 & a4 :" , float( "%.2f" % abs(a3) ) , "&" , float( "%.2f" % abs(a4) ) )
+print( "1 // Absolute value of a3 & a4 :" , "%.2f" % abs(a3) , "&" , "%.2f" % abs(a4) )
 # OR :
-print( "2 // Absolute value of a3 and a4 :" , format( abs(a3) , ".2f" ) , format( abs(a4) , ".2f") , "\n" )
+print( "2 // Absolute value of a3 and a4 :" , format( abs(a3) , ".2f" ) , "&" , format( abs(a4) , ".2f") , "\n" )
 # ---------------------------------------------------------------------------------
 
 
