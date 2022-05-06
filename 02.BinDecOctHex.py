@@ -1,4 +1,7 @@
+import time
+
 print( "HELLO WORLD" , "\n" )
+start = time.time()
 
 # ---------------------------------------------------------------------------------
 # Converting binary, octal, hexadecimal numbers into decimal
@@ -33,7 +36,7 @@ print( "Binary 101100001 =" , y22 )
 print( "Hexadecimal 23d5 =" , y33 , "\n" )
 # ---------------------------------------------------------------------------------
 '''Like the int() changes any number into decimal, if possible, 
-  bin(), oct(), and hex() do the same for others to convert them into binary, octal, & hexadecimal respectively'''
+bin(), oct(), and hex() do the same for others to convert them into binary, octal, & hexadecimal respectively'''
 
 z = 10 #a decimal number
 y4 = bin(z)
@@ -46,3 +49,5 @@ print("Hexadecimal -" , y6)
 #But these can't convert a string with decimal num
 #In simple words, these inbuilt function can only take 1 argument
 # ---------------------------------------------------------------------------------
+end = time.time()
+print( "TIME TAKEN (nanoseconds)  =" , (end - start)*10**9 )

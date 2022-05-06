@@ -1,4 +1,7 @@
+import time
+
 print( "HELLO WORLD" , "\n" )
+start = time.time()
 
 # Conversion in different numeric types:
 a0 = -72
@@ -9,3 +12,5 @@ print( "%.2f(a float), in int & complex is" % (a1) , "\n" , int(a1) , "&"  , "\n
 print( "a1 still equals" , a1 )
 #Complex numbers can neither be represented in form of integers, nor float
 # ---------------------------------------------------------------------------------
+end = time.time()
+print( "TIME TAKEN (nanoseconds)  =" , (end - start)*10**9 )

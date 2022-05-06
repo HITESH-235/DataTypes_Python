@@ -1,4 +1,7 @@
+import time
+
 print( "HELLO WORLD" , "\n" )
+start = time.time()
 
 # Numeric (Int, float, complex)
 
@@ -34,5 +37,7 @@ print( "1 // Absolute value of a3 & a4 :" , "%.2f" % abs(a3) , "&" , "%.2f" % ab
 # OR :
 print( "2 // Absolute value of a3 and a4 :" , format( abs(a3) , ".2f" ) , "&" , format( abs(a4) , ".2f") , "\n" )
 # ---------------------------------------------------------------------------------
+end = time.time()
+print( "TIME TAKEN (nanoseconds)  =" , (end - start)*10**9 )
 
 

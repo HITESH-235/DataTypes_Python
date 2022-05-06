@@ -145,4 +145,4 @@ base = base_calc(init_num)
 print(base)
 # ---------------------------------------------------------------------------------
 end = time.time()
-print( "TIME TAKEN =" , end - start )
+print( "TIME TAKEN (nanoseconds)  =" , (end - start)*10**9 )
