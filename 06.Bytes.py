@@ -1,4 +1,7 @@
+import time
+
 print("\nHello World\n")
+start = time.time()
 
 # ---------------------------------------------------------------------------------
 #Bytes is another type of array with some differences.
@@ -17,3 +20,6 @@ z = bytearray(x)
 z[ 3 ] = 255
 for i in z : 
         print(i)
+
+end = time.time()
+print( "\nTIME TAKEN (nanoseconds)  =" , (end - start)*10**9 , "\n" )
