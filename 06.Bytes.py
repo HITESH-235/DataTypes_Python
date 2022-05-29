@@ -11,15 +11,16 @@ start = time.time()
 x = [ 10 , 20 , 30 , 0 , 10 ]
 y = bytes(x)
 # y[ 3 ] = 256 #will give error
+print(y)
 for i in y :
         print(i)
-
 print('\n')
 # ---------------------------------------------------------------------------------
 z = bytearray(x)
+print(z)
 z[ 3 ] = 255
 for i in z : 
         print(i)
-
+# ---------------------------------------------------------------------------------
 end = time.time()
 print( "\nTIME TAKEN (nanoseconds)  =" , (end - start)*10**9 , "\n" )

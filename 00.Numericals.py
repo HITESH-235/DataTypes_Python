@@ -39,5 +39,3 @@ print( "2 // Absolute value of a3 and a4 :" , format( abs(a3) , ".2f" ) , "&" , 
 # ---------------------------------------------------------------------------------
 end = time.time()
 print( "TIME TAKEN (nanoseconds)  =" , (end - start)*10**9 )
-
-

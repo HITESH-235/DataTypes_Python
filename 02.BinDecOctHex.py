@@ -42,10 +42,10 @@ z = 10 #a decimal number
 y4 = bin(z)
 y5 = oct(z)
 y6 = hex(z)
-print("10 in binary, octal, hexadecimal :")
-print("Binary -" , y4)
-print("Octal -" , y5)
-print("Hexadecimal -" , y6)
+print( "10 in binary, octal, hexadecimal :" )
+print( "Binary -" , y4 )
+print( "Octal -" , y5 )
+print( "Hexadecimal -" , y6 )
 #But these can't convert a string with decimal num
 #In simple words, these inbuilt function can only take 1 argument
 # ---------------------------------------------------------------------------------

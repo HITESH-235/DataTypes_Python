@@ -11,7 +11,7 @@ for i in x :
 
 x1 = range( 30 , 40 , 2 )
 for i in x1 :
-        print(i)  
+        print(i)
 
 x2 = list(range(10))
 print(x2)

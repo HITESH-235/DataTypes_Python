@@ -3,7 +3,7 @@ import time
 print( "\nHello World\n" )
 start = time.time()
 
-# splice can only be applied to strings
+# slice can be applied to strings
 string = "Welcome to Hitesh-235"
 print( "Whole String :" , string )
 print( "0th(1st) character from left :" , string[ 0 ] )
